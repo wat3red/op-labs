@@ -9,5 +9,3 @@ const range = (start, end) => {
 };
 
 console.log(range(15, 30));
-
-module.exports = { range };

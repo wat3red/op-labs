@@ -11,5 +11,3 @@ const countTypesInArray = (arr) => {
 
 const types = [true, 'hello', 5, 12, -200, false, false, 'word'];
 console.log(countTypesInArray(types));
-
-module.exports = { countTypesInArray };

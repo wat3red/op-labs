@@ -10,5 +10,3 @@ const random = (min, max) => {
 
 console.log('random(10):', random(10));
 console.log('random(5, 15):', random(5, 15));
-
-module.exports = { random };

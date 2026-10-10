@@ -5,5 +5,3 @@ const hello = (name) => {
 };
 
 hello('Marcus');
-
-module.exports = { hello };

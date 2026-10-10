@@ -13,5 +13,3 @@ const findPhoneByName = (name) => {
 
 console.log(findPhoneByName('Marcus Aurelius'));
 console.log(findPhoneByName('Unknown'));
-
-module.exports = { phonebook, findPhoneByName };

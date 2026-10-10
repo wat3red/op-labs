@@ -22,5 +22,3 @@ const iface = {
 };
 
 console.log(methods(iface));
-
-module.exports = { methods };
