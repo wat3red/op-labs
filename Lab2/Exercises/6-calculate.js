@@ -14,4 +14,6 @@ const calculate = () => {
   return arr;
 };
 
+console.log(calculate());
+
 module.exports = { square, cube, average, calculate };

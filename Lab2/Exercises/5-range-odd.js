@@ -8,4 +8,6 @@ const rangeOdd = (start, end) => {
   return arr;
 };
 
+console.log(rangeOdd(15, 30));
+
 module.exports = { rangeOdd };

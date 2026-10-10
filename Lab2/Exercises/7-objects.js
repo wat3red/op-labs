@@ -7,8 +7,12 @@ const fn = () => {
   obj1.name = 'Aurelius';
   obj2.name = 'Aurelius';
 
-  // obj1 = { name: 'Antoninus' };
+  // obj1 = { name: 'Antoninus' }; // TypeError: Assignment to constant variable
   obj2 = { name: 'Antoninus' };
+
+  console.log({ obj1, obj2 });
 };
+
+fn();
 
 module.exports = { fn };
