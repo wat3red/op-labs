@@ -3,7 +3,7 @@
 const rangeOdd = (start, end) => {
   const arr = [];
   for (let i = start; i <= end; i++) {
-    if (i % 2 !== 0) arr.push(i);
+    if (i % 2) arr.push(i);
   }
   return arr;
 };

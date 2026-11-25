@@ -12,13 +12,9 @@ const methods = (iface) => {
 };
 
 const iface = {
-  m1: x => [x],
-  m2: function (x, y) {
-    return [x, y];
-  },
-  m3(x, y, z) {
-    return [x, y, z];
-  },
+  m1(x) {},
+  m2(x, y) {},
+  m3(x, y, z) {},
 };
 
 console.log(methods(iface));
